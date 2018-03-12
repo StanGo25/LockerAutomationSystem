@@ -1,0 +1,25 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=phoenicksboard
+*Date=12:59:35
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;2x10_lock_special;5.27157;-24.3006;-90;Bottom;U1
+2;;;48.0946;-35.9948;0;Top;TXT2
+3;;molex-1x6-ra;28.792;-2.89475;180;Bottom;JP1
+4;;;30.0448;-9.16761;-90;Top;TXT1
+5;;;24.801;-11.6776;-90;Top;TXT1
+6;;;21.9464;-11.7043;-90;Top;TXT1
+7;;;37.5141;-26.3435;0;Bottom;Raspberry Pi 3
+8;;power_jack_pth;49.9734;-28.7313;-90;Bottom;J1
+9;;;27.9355;-10.9295;-90;Top;TXT1
+10;;;16.2264;-25.9321;-90;Top;TXT3
