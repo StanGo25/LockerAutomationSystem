@@ -1,0 +1,54 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=phoenicksboardv3
+*Date=16:38:38
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;14.822;-29.183;0;Bottom;Via13
+2;;;45.2396;-2.43238;0;Top;TXT2
+3;;;9.53309;-11.7823;0;Top;TXT2
+4;;2x3-ns;19.3075;-21.563;-90;Bottom;J3
+5;;;30.062;-3.78304;0;Bottom;Via6
+6;;;37.514;-28.4323;0;Bottom;Raspberry Pi 3
+7;;;46.572;-41.375;0;Bottom;Via3
+8;;;24.9818;-10.6619;-90;Top;TXT2
+9;;;51.398;-14.705;0;Bottom;Via1
+10;;;32.6018;-10.5208;-90;Top;TXT2
+11;;;10.2875;-9.6656;0;Top;TXT2
+12;;;30.3442;-10.5846;-90;Top;TXT2
+13;;;33.872;-42.137;0;Bottom;Via20
+14;;;14.822;-31.977;0;Bottom;Via12
+15;;;6.43998;-31.977;0;Bottom;Via11
+16;;;10.758;-21.563;0;Bottom;Via14
+17;;;6.43998;-19.023;0;Bottom;Via16
+18;;;31.332;-26.643;0;Bottom;Via17
+19;;;44.032;-43.661;0;Bottom;Via4
+20;;;1.35998;-21.563;0;Bottom;Via10
+21;;;35.0007;-10.2386;-90;Top;TXT2
+22;;;38.952;-23.849;0;Bottom;Via18
+23;;;21.172;-47.217;0;Bottom;Via8
+24;;;22.4418;-10.6619;-90;Top;TXT2
+25;;;20.41;-3.78304;0;Bottom;Via7
+26;;;18.632;-45.439;0;Bottom;Via9
+27;;;51.5109;-2.40015;0;Top;TXT2
+28;;;19.1963;-34.9967;0;Top;TXT2
+29;;molex-1x6-ra;28.792;-3.45919;180;Bottom;JP1
+30;;;41.492;-45.947;0;Bottom;Via5
+31;;;35.593;-28.6222;-43;Top;TXT1
+32;;;28.792;-29.183;0;Bottom;Via19
+33;;;26.252;-21.563;0;Bottom;Via15
+34;;power_jack_pth;49.7193;-7.19774;-90;Bottom;J1
+35;;;27.6631;-10.5846;-90;Top;TXT2
+36;;;49.112;-39.597;0;Bottom;Via2
+37;;2x3-ns;19.3075;-29.183;-90;Bottom;J2
+38;;;9.8916;-48.8256;0;Top;TXT2
+39;;;9.30872;-7.74793;0;Top;TXT2
