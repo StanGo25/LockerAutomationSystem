@@ -4,8 +4,8 @@ import sys
 import datetime
 import re
 
-user_name='Jeremy'
-user_pin='1996'
+user_name=#name
+user_pin=#pin
 
 prodstat1=4
 prodstat2=2
