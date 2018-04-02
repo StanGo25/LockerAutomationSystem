@@ -1,9 +1,4 @@
 Documentation
 =============
 
-Please submit hard copies and place their respective soft copies in this
-directory.
-
-For videos, feel free to use GitHub's LFS, youtube, vimeo, etc. and link from here and your build log. For example:
-Build (Assembly) Video: https://www.youtube.com/watch?v=MhcYiBZtZZo
-Final Project (Product Demo) Video: https://www.youtube.com/watch?v=0LHeTyl9mqs
+The Technical Report Framework can be found [here](https://docs.google.com/document/d/1DSoJnpD020WvKtms6m14LCJll3mxSXHQR3y_MgfNMSQ/edit?usp=sharing).
