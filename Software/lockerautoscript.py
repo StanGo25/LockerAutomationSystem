@@ -7,8 +7,8 @@ import wiringpi
 import Adafruit_CharLCD as LCD
 
 
-lock = #lockname
-door = #doorname
+lock = 'TestLock00'
+door = 'JI13444983'
 
 currentlock = '3'
 currentdoor = '2'
@@ -17,6 +17,14 @@ wiringpi.wiringPiSetup()
 
 lcd_columns = 16
 lcd_rows = 2
+
+lcd_rs = 10
+lcd_en = 05
+lcd_d4 = 27
+lcd_d5 = 11 
+lcd_d6 = 22
+lcd_d7 = 9
+lcd_backlight = 4
 
 lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7, lcd_columns, lcd_rows, lcd_backlight)
 
@@ -49,6 +57,11 @@ def doorOpen():
     print "DOOR STOPPED!"
 
 def doorClose():
+    wiringpi.pinMode(LOCKPIN1,1)
+    wiringpi.pinMode(LOCKPIN2,1)
+    wiringpi.pinMode(MOTORF,1)
+    wiringpi.pinMode(MOTORB,1)
+    print "Door closing"
     wiringpi.digitalWrite(MOTORF,0)
     wiringpi.digitalWrite(MOTORB,1)
     print "ALERT! DOOR MOVING!"
@@ -58,7 +71,7 @@ def doorClose():
     print "DOOR STOPPED!"
 
 def lcdDisplay(arg1, arg2):
-    
+    lcd.clear() 
     lcd.message(arg1+'\n'+arg2)
     time.sleep(2)
 
@@ -122,6 +135,4 @@ while True:
         lcdDisplay(doorval,lockval)
         doorClose()
         
-    time.sleep(1)
-    
-    lcd.clear()
+    time.sleep(0.05)   
